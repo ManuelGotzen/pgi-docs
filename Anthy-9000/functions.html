@@ -1,0 +1,591 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    Anthy 9000
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Anthy 9000 9000 documentation" href="index.html"/>
+        <link rel="next" title="Callbacks" href="callbacks.html"/>
+        <link rel="prev" title="Anthy 9000" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="./../index.html#Anthy-9000/functions.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Anthy 9000</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="./../index.html#Anthy-9000/functions.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Anthy 9000</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.commit_prediction" title="Anthy.commit_prediction"><tt class="xref py py-obj docutils literal"><span class="pre">commit_prediction</span></tt></a>(arg0, arg1)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.commit_segment" title="Anthy.commit_segment"><tt class="xref py py-obj docutils literal"><span class="pre">commit_segment</span></tt></a>(arg0, arg1, arg2)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.conf_override" title="Anthy.conf_override"><tt class="xref py py-obj docutils literal"><span class="pre">conf_override</span></tt></a>(arg0, arg1)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.context_set_encoding" title="Anthy.context_set_encoding"><tt class="xref py py-obj docutils literal"><span class="pre">context_set_encoding</span></tt></a>(ac, encoding)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.get_prediction" title="Anthy.get_prediction"><tt class="xref py py-obj docutils literal"><span class="pre">get_prediction</span></tt></a>(arg0, arg1, arg2, arg3)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.get_prediction_stat" title="Anthy.get_prediction_stat"><tt class="xref py py-obj docutils literal"><span class="pre">get_prediction_stat</span></tt></a>(arg0, arg1)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.get_segment" title="Anthy.get_segment"><tt class="xref py py-obj docutils literal"><span class="pre">get_segment</span></tt></a>(arg0, arg1, arg2, arg3, arg4)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.get_segment_stat" title="Anthy.get_segment_stat"><tt class="xref py py-obj docutils literal"><span class="pre">get_segment_stat</span></tt></a>(arg0, arg1, arg2)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.get_stat" title="Anthy.get_stat"><tt class="xref py py-obj docutils literal"><span class="pre">get_stat</span></tt></a>(arg0, arg1)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.get_version_string" title="Anthy.get_version_string"><tt class="xref py py-obj docutils literal"><span class="pre">get_version_string</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.init" title="Anthy.init"><tt class="xref py py-obj docutils literal"><span class="pre">init</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.print_context" title="Anthy.print_context"><tt class="xref py py-obj docutils literal"><span class="pre">print_context</span></tt></a>(arg0)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.quit" title="Anthy.quit"><tt class="xref py py-obj docutils literal"><span class="pre">quit</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.release_context" title="Anthy.release_context"><tt class="xref py py-obj docutils literal"><span class="pre">release_context</span></tt></a>(arg0)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.reset_context" title="Anthy.reset_context"><tt class="xref py py-obj docutils literal"><span class="pre">reset_context</span></tt></a>(arg0)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.resize_segment" title="Anthy.resize_segment"><tt class="xref py py-obj docutils literal"><span class="pre">resize_segment</span></tt></a>(arg0, arg1, arg2)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.set_personality" title="Anthy.set_personality"><tt class="xref py py-obj docutils literal"><span class="pre">set_personality</span></tt></a>(arg0)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.set_prediction_string" title="Anthy.set_prediction_string"><tt class="xref py py-obj docutils literal"><span class="pre">set_prediction_string</span></tt></a>(arg0, arg1)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anthy.set_reconversion_mode" title="Anthy.set_reconversion_mode"><tt class="xref py py-obj docutils literal"><span class="pre">set_reconversion_mode</span></tt></a>(ac, mode)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anthy.set_string" title="Anthy.set_string"><tt class="xref py py-obj docutils literal"><span class="pre">set_string</span></tt></a>(arg0, arg1)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="Anthy.commit_prediction">
+<tt class="descclassname">Anthy.</tt><tt class="descname">commit_prediction</tt><big>(</big><em>arg0</em>, <em>arg1</em><big>)</big><a class="headerlink" href="#Anthy.commit_prediction" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.commit_segment">
+<tt class="descclassname">Anthy.</tt><tt class="descname">commit_segment</tt><big>(</big><em>arg0</em>, <em>arg1</em>, <em>arg2</em><big>)</big><a class="headerlink" href="#Anthy.commit_segment" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>arg2</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.conf_override">
+<tt class="descclassname">Anthy.</tt><tt class="descname">conf_override</tt><big>(</big><em>arg0</em>, <em>arg1</em><big>)</big><a class="headerlink" href="#Anthy.conf_override" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>arg0</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.context_set_encoding">
+<tt class="descclassname">Anthy.</tt><tt class="descname">context_set_encoding</tt><big>(</big><em>ac</em>, <em>encoding</em><big>)</big><a class="headerlink" href="#Anthy.context_set_encoding" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>ac</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>encoding</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.get_prediction">
+<tt class="descclassname">Anthy.</tt><tt class="descname">get_prediction</tt><big>(</big><em>arg0</em>, <em>arg1</em>, <em>arg2</em>, <em>arg3</em><big>)</big><a class="headerlink" href="#Anthy.get_prediction" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>arg2</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>arg3</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.get_prediction_stat">
+<tt class="descclassname">Anthy.</tt><tt class="descname">get_prediction_stat</tt><big>(</big><em>arg0</em>, <em>arg1</em><big>)</big><a class="headerlink" href="#Anthy.get_prediction_stat" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.get_segment">
+<tt class="descclassname">Anthy.</tt><tt class="descname">get_segment</tt><big>(</big><em>arg0</em>, <em>arg1</em>, <em>arg2</em>, <em>arg3</em>, <em>arg4</em><big>)</big><a class="headerlink" href="#Anthy.get_segment" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>arg2</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>arg3</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>arg4</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.get_segment_stat">
+<tt class="descclassname">Anthy.</tt><tt class="descname">get_segment_stat</tt><big>(</big><em>arg0</em>, <em>arg1</em>, <em>arg2</em><big>)</big><a class="headerlink" href="#Anthy.get_segment_stat" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>arg2</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.get_stat">
+<tt class="descclassname">Anthy.</tt><tt class="descname">get_stat</tt><big>(</big><em>arg0</em>, <em>arg1</em><big>)</big><a class="headerlink" href="#Anthy.get_stat" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.get_version_string">
+<tt class="descclassname">Anthy.</tt><tt class="descname">get_version_string</tt><big>(</big><big>)</big><a class="headerlink" href="#Anthy.get_version_string" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.init">
+<tt class="descclassname">Anthy.</tt><tt class="descname">init</tt><big>(</big><big>)</big><a class="headerlink" href="#Anthy.init" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.print_context">
+<tt class="descclassname">Anthy.</tt><tt class="descname">print_context</tt><big>(</big><em>arg0</em><big>)</big><a class="headerlink" href="#Anthy.print_context" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.quit">
+<tt class="descclassname">Anthy.</tt><tt class="descname">quit</tt><big>(</big><big>)</big><a class="headerlink" href="#Anthy.quit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="Anthy.release_context">
+<tt class="descclassname">Anthy.</tt><tt class="descname">release_context</tt><big>(</big><em>arg0</em><big>)</big><a class="headerlink" href="#Anthy.release_context" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.reset_context">
+<tt class="descclassname">Anthy.</tt><tt class="descname">reset_context</tt><big>(</big><em>arg0</em><big>)</big><a class="headerlink" href="#Anthy.reset_context" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.resize_segment">
+<tt class="descclassname">Anthy.</tt><tt class="descname">resize_segment</tt><big>(</big><em>arg0</em>, <em>arg1</em>, <em>arg2</em><big>)</big><a class="headerlink" href="#Anthy.resize_segment" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>arg2</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.set_personality">
+<tt class="descclassname">Anthy.</tt><tt class="descname">set_personality</tt><big>(</big><em>arg0</em><big>)</big><a class="headerlink" href="#Anthy.set_personality" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>arg0</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.set_prediction_string">
+<tt class="descclassname">Anthy.</tt><tt class="descname">set_prediction_string</tt><big>(</big><em>arg0</em>, <em>arg1</em><big>)</big><a class="headerlink" href="#Anthy.set_prediction_string" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.set_reconversion_mode">
+<tt class="descclassname">Anthy.</tt><tt class="descname">set_reconversion_mode</tt><big>(</big><em>ac</em>, <em>mode</em><big>)</big><a class="headerlink" href="#Anthy.set_reconversion_mode" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>ac</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>mode</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anthy.set_string">
+<tt class="descclassname">Anthy.</tt><tt class="descname">set_string</tt><big>(</big><em>arg0</em>, <em>arg1</em><big>)</big><a class="headerlink" href="#Anthy.set_string" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arg0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Anthy.anthy_context_t</span></tt>) &#8211; </li>
+<li><strong>arg1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+  <script>
+      function inIframe() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+      }
+
+    if(!inIframe()) {
+        var icons = document.getElementsByClassName('open-sidebar');
+
+        for (var i = 0; i < icons.length; i ++) {
+            icons[i].style.display = 'table-cell';
+        }
+    }
+  </script>
+
+</html>

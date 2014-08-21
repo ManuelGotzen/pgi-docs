@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Callbacks -
+    
+    PackageKitPlugin 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="PackageKitPlugin 1.0 1.0 documentation" href="index.html"/>
+        <link rel="next" title="Classes" href="classes/index.html"/>
+        <link rel="prev" title="Functions" href="functions.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="./../index.html#PackageKitPlugin-1.0/callbacks.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">PackageKitPlugin 1.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="classes/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="./../index.html#PackageKitPlugin-1.0/callbacks.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">PackageKitPlugin 1.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="classes/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="callbacks">
+<h1>Callbacks<a class="headerlink" href="#callbacks" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitPlugin.BackendFileChanged" title="PackageKitPlugin.BackendFileChanged"><tt class="xref py py-obj docutils literal"><span class="pre">BackendFileChanged</span></tt></a>(backend, data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitPlugin.BackendJobThreadFunc" title="PackageKitPlugin.BackendJobThreadFunc"><tt class="xref py py-obj docutils literal"><span class="pre">BackendJobThreadFunc</span></tt></a>(job, params, user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitPlugin.BackendJobVFunc" title="PackageKitPlugin.BackendJobVFunc"><tt class="xref py py-obj docutils literal"><span class="pre">BackendJobVFunc</span></tt></a>(job, object, user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitPlugin.PluginFunc" title="PackageKitPlugin.PluginFunc"><tt class="xref py py-obj docutils literal"><span class="pre">PluginFunc</span></tt></a>(plugin)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitPlugin.PluginGetActionFunc" title="PackageKitPlugin.PluginGetActionFunc"><tt class="xref py py-obj docutils literal"><span class="pre">PluginGetActionFunc</span></tt></a>(plugin, transaction, action_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitPlugin.PluginGetDescFunc" title="PackageKitPlugin.PluginGetDescFunc"><tt class="xref py py-obj docutils literal"><span class="pre">PluginGetDescFunc</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitPlugin.PluginTransactionFunc" title="PackageKitPlugin.PluginTransactionFunc"><tt class="xref py py-obj docutils literal"><span class="pre">PluginTransactionFunc</span></tt></a>(plugin, transaction)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="PackageKitPlugin.BackendFileChanged">
+<tt class="descclassname">PackageKitPlugin.</tt><tt class="descname">BackendFileChanged</tt><big>(</big><em>backend</em>, <em>data</em><big>)</big><a class="headerlink" href="#PackageKitPlugin.BackendFileChanged" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>backend</strong> (<a class="reference internal" href="classes/Backend.html#PackageKitPlugin.Backend" title="PackageKitPlugin.Backend"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitPlugin.Backend</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitPlugin.BackendJobThreadFunc">
+<tt class="descclassname">PackageKitPlugin.</tt><tt class="descname">BackendJobThreadFunc</tt><big>(</big><em>job</em>, <em>params</em>, <em>user_data</em><big>)</big><a class="headerlink" href="#PackageKitPlugin.BackendJobThreadFunc" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>job</strong> (<a class="reference internal" href="classes/BackendJob.html#PackageKitPlugin.BackendJob" title="PackageKitPlugin.BackendJob"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitPlugin.BackendJob</span></tt></a>) &#8211; </li>
+<li><strong>params</strong> (<a class="reference external" href="_docs/PackageKitPlugin-1.0/../../../GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitPlugin.BackendJobVFunc">
+<tt class="descclassname">PackageKitPlugin.</tt><tt class="descname">BackendJobVFunc</tt><big>(</big><em>job</em>, <em>object</em>, <em>user_data</em><big>)</big><a class="headerlink" href="#PackageKitPlugin.BackendJobVFunc" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>job</strong> (<a class="reference internal" href="classes/BackendJob.html#PackageKitPlugin.BackendJob" title="PackageKitPlugin.BackendJob"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitPlugin.BackendJob</span></tt></a>) &#8211; </li>
+<li><strong>object</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitPlugin.PluginFunc">
+<tt class="descclassname">PackageKitPlugin.</tt><tt class="descname">PluginFunc</tt><big>(</big><em>plugin</em><big>)</big><a class="headerlink" href="#PackageKitPlugin.PluginFunc" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>plugin</strong> (<a class="reference internal" href="structs/Plugin.html#PackageKitPlugin.Plugin" title="PackageKitPlugin.Plugin"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitPlugin.Plugin</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitPlugin.PluginGetActionFunc">
+<tt class="descclassname">PackageKitPlugin.</tt><tt class="descname">PluginGetActionFunc</tt><big>(</big><em>plugin</em>, <em>transaction</em>, <em>action_id</em><big>)</big><a class="headerlink" href="#PackageKitPlugin.PluginGetActionFunc" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>plugin</strong> (<a class="reference internal" href="structs/Plugin.html#PackageKitPlugin.Plugin" title="PackageKitPlugin.Plugin"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitPlugin.Plugin</span></tt></a>) &#8211; </li>
+<li><strong>transaction</strong> (<a class="reference internal" href="classes/Transaction.html#PackageKitPlugin.Transaction" title="PackageKitPlugin.Transaction"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitPlugin.Transaction</span></tt></a>) &#8211; </li>
+<li><strong>action_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitPlugin.PluginGetDescFunc">
+<tt class="descclassname">PackageKitPlugin.</tt><tt class="descname">PluginGetDescFunc</tt><big>(</big><big>)</big><a class="headerlink" href="#PackageKitPlugin.PluginGetDescFunc" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitPlugin.PluginTransactionFunc">
+<tt class="descclassname">PackageKitPlugin.</tt><tt class="descname">PluginTransactionFunc</tt><big>(</big><em>plugin</em>, <em>transaction</em><big>)</big><a class="headerlink" href="#PackageKitPlugin.PluginTransactionFunc" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>plugin</strong> (<a class="reference internal" href="structs/Plugin.html#PackageKitPlugin.Plugin" title="PackageKitPlugin.Plugin"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitPlugin.Plugin</span></tt></a>) &#8211; </li>
+<li><strong>transaction</strong> (<a class="reference internal" href="classes/Transaction.html#PackageKitPlugin.Transaction" title="PackageKitPlugin.Transaction"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitPlugin.Transaction</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+  <script>
+      function inIframe() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+      }
+
+    if(!inIframe()) {
+        var icons = document.getElementsByClassName('open-sidebar');
+
+        for (var i = 0; i < icons.length; i ++) {
+            icons[i].style.display = 'table-cell';
+        }
+    }
+  </script>
+
+</html>

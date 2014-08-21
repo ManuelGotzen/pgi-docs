@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Callbacks -
+    
+    Grl 0.1
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Grl 0.1 0.1 documentation" href="index.html"/>
+        <link rel="next" title="Classes" href="classes/index.html"/>
+        <link rel="prev" title="Functions" href="functions.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="./../index.html#Grl-0.1/callbacks.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Grl 0.1</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="classes/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="./../index.html#Grl-0.1/callbacks.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Grl 0.1</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="classes/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="callbacks">
+<h1>Callbacks<a class="headerlink" href="#callbacks" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MediaSourceMetadataCb" title="Grl.MediaSourceMetadataCb"><tt class="xref py py-obj docutils literal"><span class="pre">MediaSourceMetadataCb</span></tt></a>(source, operation_id, media, user_data, error)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MediaSourceRemoveCb" title="Grl.MediaSourceRemoveCb"><tt class="xref py py-obj docutils literal"><span class="pre">MediaSourceRemoveCb</span></tt></a>(source, media, user_data, error)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MediaSourceResultCb" title="Grl.MediaSourceResultCb"><tt class="xref py py-obj docutils literal"><span class="pre">MediaSourceResultCb</span></tt></a>(source, operation_id, media, remaining, user_data, error)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MediaSourceStoreCb" title="Grl.MediaSourceStoreCb"><tt class="xref py py-obj docutils literal"><span class="pre">MediaSourceStoreCb</span></tt></a>(source, parent, media, user_data, error)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSourceResolveCb" title="Grl.MetadataSourceResolveCb"><tt class="xref py py-obj docutils literal"><span class="pre">MetadataSourceResolveCb</span></tt></a>(source, operation_id, media, user_data, error)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSourceSetMetadataCb" title="Grl.MetadataSourceSetMetadataCb"><tt class="xref py py-obj docutils literal"><span class="pre">MetadataSourceSetMetadataCb</span></tt></a>(source, media, failed_keys, user_data, error)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="Grl.MediaSourceMetadataCb">
+<tt class="descclassname">Grl.</tt><tt class="descname">MediaSourceMetadataCb</tt><big>(</big><em>source</em>, <em>operation_id</em>, <em>media</em>, <em>user_data</em>, <em>error</em><big>)</big><a class="headerlink" href="#Grl.MediaSourceMetadataCb" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source</strong> (<a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource" title="Grl.MediaSource"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MediaSource</span></tt></a>) &#8211; a media source</li>
+<li><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; operation identifier</li>
+<li><strong>media</strong> (<a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; a data transfer object</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; user data passed to <a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource.metadata" title="Grl.MediaSource.metadata"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MediaSource.metadata</span></tt></a> ()</li>
+<li><strong>error</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; possible <a class="reference external" href="_docs/Grl-0.1/../../../GLib-2.0/structs/Error.html#GLib.Error" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Error</span></tt></a> generated at processing</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Prototype for the callback passed to <a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource.metadata" title="Grl.MediaSource.metadata"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MediaSource.metadata</span></tt></a> ()</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Grl.MediaSourceRemoveCb">
+<tt class="descclassname">Grl.</tt><tt class="descname">MediaSourceRemoveCb</tt><big>(</big><em>source</em>, <em>media</em>, <em>user_data</em>, <em>error</em><big>)</big><a class="headerlink" href="#Grl.MediaSourceRemoveCb" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source</strong> (<a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource" title="Grl.MediaSource"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MediaSource</span></tt></a>) &#8211; a media source</li>
+<li><strong>media</strong> (<a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; a data transfer object</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; user data passed to <a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource.remove" title="Grl.MediaSource.remove"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MediaSource.remove</span></tt></a> ()</li>
+<li><strong>error</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; possible <a class="reference external" href="_docs/Grl-0.1/../../../GLib-2.0/structs/Error.html#GLib.Error" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Error</span></tt></a> generated at processing</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Prototype for the callback passed to <a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource.remove" title="Grl.MediaSource.remove"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MediaSource.remove</span></tt></a> ()</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Grl.MediaSourceResultCb">
+<tt class="descclassname">Grl.</tt><tt class="descname">MediaSourceResultCb</tt><big>(</big><em>source</em>, <em>operation_id</em>, <em>media</em>, <em>remaining</em>, <em>user_data</em>, <em>error</em><big>)</big><a class="headerlink" href="#Grl.MediaSourceResultCb" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source</strong> (<a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource" title="Grl.MediaSource"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MediaSource</span></tt></a>) &#8211; a media source</li>
+<li><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; operation identifier</li>
+<li><strong>media</strong> (<a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; a data transfer object</li>
+<li><strong>remaining</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the number of remaining <a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.Media</span></tt></a> to process, or <a class="reference internal" href="constants.html#Grl.SOURCE_REMAINING_UNKNOWN" title="Grl.SOURCE_REMAINING_UNKNOWN"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.SOURCE_REMAINING_UNKNOWN</span></tt></a> if it is unknown</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; user data passed to the used method</li>
+<li><strong>error</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; possible <a class="reference external" href="_docs/Grl-0.1/../../../GLib-2.0/structs/Error.html#GLib.Error" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Error</span></tt></a> generated at processing</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Prototype for the callback passed to the media sources&#8217; methods</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Grl.MediaSourceStoreCb">
+<tt class="descclassname">Grl.</tt><tt class="descname">MediaSourceStoreCb</tt><big>(</big><em>source</em>, <em>parent</em>, <em>media</em>, <em>user_data</em>, <em>error</em><big>)</big><a class="headerlink" href="#Grl.MediaSourceStoreCb" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source</strong> (<a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource" title="Grl.MediaSource"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MediaSource</span></tt></a>) &#8211; a media source</li>
+<li><strong>parent</strong> (<a class="reference internal" href="classes/MediaBox.html#Grl.MediaBox" title="Grl.MediaBox"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MediaBox</span></tt></a>) &#8211; The <a class="reference internal" href="classes/MediaBox.html#Grl.MediaBox" title="Grl.MediaBox"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MediaBox</span></tt></a> who parents the <cite>media</cite></li>
+<li><strong>media</strong> (<a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; a data transfer object</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; user data passed to <a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource.store" title="Grl.MediaSource.store"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MediaSource.store</span></tt></a> ()</li>
+<li><strong>error</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; possible <a class="reference external" href="_docs/Grl-0.1/../../../GLib-2.0/structs/Error.html#GLib.Error" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Error</span></tt></a> generated at processing</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Prototype for the callback passed to <a class="reference internal" href="classes/MediaSource.html#Grl.MediaSource.store" title="Grl.MediaSource.store"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MediaSource.store</span></tt></a> ()</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Grl.MetadataSourceResolveCb">
+<tt class="descclassname">Grl.</tt><tt class="descname">MetadataSourceResolveCb</tt><big>(</big><em>source</em>, <em>operation_id</em>, <em>media</em>, <em>user_data</em>, <em>error</em><big>)</big><a class="headerlink" href="#Grl.MetadataSourceResolveCb" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source</strong> (<a class="reference internal" href="classes/MetadataSource.html#Grl.MetadataSource" title="Grl.MetadataSource"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataSource</span></tt></a>) &#8211; a metadata source</li>
+<li><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; operation identifier</li>
+<li><strong>media</strong> (<a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; a <a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.Media</span></tt></a> transfer object</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; user data passed to <a class="reference internal" href="classes/MetadataSource.html#Grl.MetadataSource.resolve" title="Grl.MetadataSource.resolve"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.resolve</span></tt></a> ()</li>
+<li><strong>error</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; possible <a class="reference external" href="_docs/Grl-0.1/../../../GLib-2.0/structs/Error.html#GLib.Error" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Error</span></tt></a> generated when resolving the metadata</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Prototype for the callback passed to <a class="reference internal" href="classes/MetadataSource.html#Grl.MetadataSource.resolve" title="Grl.MetadataSource.resolve"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.resolve</span></tt></a> ()</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Grl.MetadataSourceSetMetadataCb">
+<tt class="descclassname">Grl.</tt><tt class="descname">MetadataSourceSetMetadataCb</tt><big>(</big><em>source</em>, <em>media</em>, <em>failed_keys</em>, <em>user_data</em>, <em>error</em><big>)</big><a class="headerlink" href="#Grl.MetadataSourceSetMetadataCb" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source</strong> (<a class="reference internal" href="classes/MetadataSource.html#Grl.MetadataSource" title="Grl.MetadataSource"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataSource</span></tt></a>) &#8211; a metadata source</li>
+<li><strong>media</strong> (<a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; a <a class="reference internal" href="classes/Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.Media</span></tt></a> transfer object</li>
+<li><strong>failed_keys</strong> ([<a class="reference external" href="_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]) &#8211; <a class="reference external" href="_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> of keys that could not be updated, if any</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; user data passed to <a class="reference internal" href="classes/MetadataSource.html#Grl.MetadataSource.set_metadata" title="Grl.MetadataSource.set_metadata"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.set_metadata</span></tt></a> ()</li>
+<li><strong>error</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; possible <a class="reference external" href="_docs/Grl-0.1/../../../GLib-2.0/structs/Error.html#GLib.Error" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Error</span></tt></a> generated when updating the metadata</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Prototype for the callback passed to <a class="reference internal" href="classes/MetadataSource.html#Grl.MetadataSource.set_metadata" title="Grl.MetadataSource.set_metadata"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.set_metadata</span></tt></a> ()</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+  <script>
+      function inIframe() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+      }
+
+    if(!inIframe()) {
+        var icons = document.getElementsByClassName('open-sidebar');
+
+        for (var i = 0; i < icons.length; i ++) {
+            icons[i].style.display = 'table-cell';
+        }
+    }
+  </script>
+
+</html>

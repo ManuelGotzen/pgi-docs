@@ -1,0 +1,679 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    TrackerMiner.Crawler -
+    
+      Classes -
+    
+    TrackerMiner 0.14
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="TrackerMiner 0.14 0.14 documentation" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="TrackerMiner.IndexingTree" href="IndexingTree.html"/>
+        <link rel="prev" title="Classes" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="../../index.html#TrackerMiner-0.14/classes/Crawler.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">TrackerMiner 0.14</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>TrackerMiner.Crawler</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="IndexingTree.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">TrackerMiner.Crawler</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="../../index.html#TrackerMiner-0.14/classes/Crawler.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">TrackerMiner 0.14</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>TrackerMiner.Crawler</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="IndexingTree.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">TrackerMiner.Crawler</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="trackerminer-crawler">
+<h1>TrackerMiner.Crawler<a class="headerlink" href="#trackerminer-crawler" title="Permalink to this headline">¶</a></h1>
+<p class="graphviz">
+<svg width="114pt" height="80pt"
+ viewBox="0.00 0.00 114.00 80.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
+<title>inheritancea614e3aba2</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M87,-72C87,-72 19,-72 19,-72 16,-72 13,-69 13,-66 13,-66 13,-60 13,-60 13,-57 16,-54 19,-54 19,-54 87,-54 87,-54 90,-54 93,-57 93,-60 93,-60 93,-66 93,-66 93,-69 90,-72 87,-72"/>
+<text text-anchor="middle" x="53" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- TrackerMiner.Crawler -->
+<g id="node2" class="node"><title>TrackerMiner.Crawler</title>
+<g id="a_node2"><a xlink:href="#TrackerMiner.Crawler" xlink:title="TrackerMiner.Crawler">
+<path fill="none" stroke="#75507b" d="M100,-18C100,-18 6,-18 6,-18 3,-18 0,-15 0,-12 0,-12 0,-6 0,-6 0,-3 3,-0 6,-0 6,-0 100,-0 100,-0 103,-0 106,-3 106,-6 106,-6 106,-12 106,-12 106,-15 103,-18 100,-18"/>
+<text text-anchor="middle" x="53" y="-6.7" font-family="inherit" font-size="8.50">TrackerMiner.Crawler</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;TrackerMiner.Crawler -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;TrackerMiner.Crawler</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M53,-53.875C53,-45.7564 53,-33.1312 53,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="54.7501,-23.2395 53,-18.2396 51.2501,-23.2396 54.7501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="trackerminer-crawler-methods"></span><h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.new" title="TrackerMiner.Crawler.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.get_file_attributes" title="TrackerMiner.Crawler.get_file_attributes"><tt class="xref py py-obj docutils literal"><span class="pre">get_file_attributes</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.get_file_info" title="TrackerMiner.Crawler.get_file_info"><tt class="xref py py-obj docutils literal"><span class="pre">get_file_info</span></tt></a>(file)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.pause" title="TrackerMiner.Crawler.pause"><tt class="xref py py-obj docutils literal"><span class="pre">pause</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.resume" title="TrackerMiner.Crawler.resume"><tt class="xref py py-obj docutils literal"><span class="pre">resume</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.set_file_attributes" title="TrackerMiner.Crawler.set_file_attributes"><tt class="xref py py-obj docutils literal"><span class="pre">set_file_attributes</span></tt></a>(file_attributes)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.set_throttle" title="TrackerMiner.Crawler.set_throttle"><tt class="xref py py-obj docutils literal"><span class="pre">set_throttle</span></tt></a>(throttle)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.start" title="TrackerMiner.Crawler.start"><tt class="xref py py-obj docutils literal"><span class="pre">start</span></tt></a>(file, recurse)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.stop" title="TrackerMiner.Crawler.stop"><tt class="xref py py-obj docutils literal"><span class="pre">stop</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="trackerminer-crawler-vfuncs"></span><h2>Virtual Methods<a class="headerlink" href="#virtual-methods" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.do_check_directory" title="TrackerMiner.Crawler.do_check_directory"><tt class="xref py py-obj docutils literal"><span class="pre">do_check_directory</span></tt></a>(file)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.do_check_file" title="TrackerMiner.Crawler.do_check_file"><tt class="xref py py-obj docutils literal"><span class="pre">do_check_file</span></tt></a>(file)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.do_directory_crawled" title="TrackerMiner.Crawler.do_directory_crawled"><tt class="xref py py-obj docutils literal"><span class="pre">do_directory_crawled</span></tt></a>(directory, tree, directories_found, directories_ignored, files_found, files_ignored)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerMiner.Crawler.do_finished" title="TrackerMiner.Crawler.do_finished"><tt class="xref py py-obj docutils literal"><span class="pre">do_finished</span></tt></a>(interrupted)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="trackerminer-crawler-props"></span><h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<p>None</p>
+</div>
+<div class="section" id="signals">
+<span id="trackerminer-crawler-signals"></span><h2>Signals<a class="headerlink" href="#signals" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#TrackerMiner.Crawler.signals.check_directory" title="TrackerMiner.Crawler.signals.check_directory"><tt class="xref py py-func docutils literal"><span class="pre">check-directory</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#TrackerMiner.Crawler.signals.check_directory_contents" title="TrackerMiner.Crawler.signals.check_directory_contents"><tt class="xref py py-func docutils literal"><span class="pre">check-directory-contents</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#TrackerMiner.Crawler.signals.check_file" title="TrackerMiner.Crawler.signals.check_file"><tt class="xref py py-func docutils literal"><span class="pre">check-file</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#TrackerMiner.Crawler.signals.directory_crawled" title="TrackerMiner.Crawler.signals.directory_crawled"><tt class="xref py py-func docutils literal"><span class="pre">directory-crawled</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#TrackerMiner.Crawler.signals.finished" title="TrackerMiner.Crawler.signals.finished"><tt class="xref py py-func docutils literal"><span class="pre">finished</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="trackerminer-crawler-fields"></span><h2>Fields<a class="headerlink" href="#fields" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent</td>
+<td><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details<a class="headerlink" href="#class-details" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="TrackerMiner.Crawler">
+<em class="property">class </em><tt class="descclassname">TrackerMiner.</tt><tt class="descname">Crawler</tt><big>(</big><em>**kwargs</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></p>
+<dl class="method">
+<dt id="TrackerMiner.Crawler.do_check_directory">
+<tt class="descname">do_check_directory</tt><big>(</big><em>file</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.do_check_directory" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>file</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.do_check_file">
+<tt class="descname">do_check_file</tt><big>(</big><em>file</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.do_check_file" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>file</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.do_directory_crawled">
+<tt class="descname">do_directory_crawled</tt><big>(</big><em>directory</em>, <em>tree</em>, <em>directories_found</em>, <em>directories_ignored</em>, <em>files_found</em>, <em>files_ignored</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.do_directory_crawled" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>directory</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </li>
+<li><strong>tree</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GLib-2.0/structs/Node.html#GLib.Node" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Node</span></tt></a>) &#8211; </li>
+<li><strong>directories_found</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>directories_ignored</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>files_found</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>files_ignored</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.do_finished">
+<tt class="descname">do_finished</tt><big>(</big><em>interrupted</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.do_finished" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>interrupted</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="TrackerMiner.Crawler.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.new" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#TrackerMiner.Crawler" title="TrackerMiner.Crawler"><tt class="xref py py-class docutils literal"><span class="pre">TrackerMiner.Crawler</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.get_file_attributes">
+<tt class="descname">get_file_attributes</tt><big>(</big><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.get_file_attributes" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the file attributes as a string.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the file attributes that <cite>crawler</cite> will fetch</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.get_file_info">
+<tt class="descname">get_file_info</tt><big>(</big><em>file</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.get_file_info" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>file</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; a <a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.File</span></tt></a> returned by <cite>crawler</cite></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/classes/FileInfo.html#Gio.FileInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.FileInfo</span></tt></a> with the file information</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/classes/FileInfo.html#Gio.FileInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns a <a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/classes/FileInfo.html#Gio.FileInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.FileInfo</span></tt></a> with the file attributes requested through
+<a class="reference internal" href="#TrackerMiner.Crawler.set_file_attributes" title="TrackerMiner.Crawler.set_file_attributes"><tt class="xref py py-obj docutils literal"><span class="pre">TrackerMiner.Crawler.set_file_attributes</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.pause">
+<tt class="descname">pause</tt><big>(</big><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.pause" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.resume">
+<tt class="descname">resume</tt><big>(</big><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.resume" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.set_file_attributes">
+<tt class="descname">set_file_attributes</tt><big>(</big><em>file_attributes</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.set_file_attributes" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>file_attributes</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; file attributes to extract</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the file attributes that <cite>crawler</cite> will fetch for every
+file it gets, this info may be requested through
+<a class="reference internal" href="#TrackerMiner.Crawler.get_file_info" title="TrackerMiner.Crawler.get_file_info"><tt class="xref py py-obj docutils literal"><span class="pre">TrackerMiner.Crawler.get_file_info</span></tt></a> () in any <a class="reference internal" href="#TrackerMiner.Crawler" title="TrackerMiner.Crawler"><tt class="xref py py-obj docutils literal"><span class="pre">TrackerMiner.Crawler</span></tt></a> callback</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.set_throttle">
+<tt class="descname">set_throttle</tt><big>(</big><em>throttle</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.set_throttle" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>throttle</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.start">
+<tt class="descname">start</tt><big>(</big><em>file</em>, <em>recurse</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.start" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>file</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </li>
+<li><strong>recurse</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="TrackerMiner.Crawler.stop">
+<tt class="descname">stop</tt><big>(</big><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details<a class="headerlink" href="#signal-details" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="TrackerMiner.Crawler.signals.check_directory">
+<tt class="descclassname">TrackerMiner.Crawler.signals.</tt><tt class="descname">check_directory</tt><big>(</big><em>object</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.signals.check_directory" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">check-directory</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>object</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerMiner.Crawler.signals.check_directory_contents">
+<tt class="descclassname">TrackerMiner.Crawler.signals.</tt><tt class="descname">check_directory_contents</tt><big>(</big><em>object</em>, <em>p0</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.signals.check_directory_contents" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">check-directory-contents</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </li>
+<li><strong>p0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerMiner.Crawler.signals.check_file">
+<tt class="descclassname">TrackerMiner.Crawler.signals.</tt><tt class="descname">check_file</tt><big>(</big><em>object</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.signals.check_file" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">check-file</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>object</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerMiner.Crawler.signals.directory_crawled">
+<tt class="descclassname">TrackerMiner.Crawler.signals.</tt><tt class="descname">directory_crawled</tt><big>(</big><em>object</em>, <em>p0</em>, <em>p1</em>, <em>p2</em>, <em>p3</em>, <em>p4</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.signals.directory_crawled" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">directory-crawled</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>object</strong> (<a class="reference external" href="../_docs/TrackerMiner-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </li>
+<li><strong>p0</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; </li>
+<li><strong>p1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p2</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p3</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p4</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerMiner.Crawler.signals.finished">
+<tt class="descclassname">TrackerMiner.Crawler.signals.</tt><tt class="descname">finished</tt><big>(</big><em>object</em><big>)</big><a class="headerlink" href="#TrackerMiner.Crawler.signals.finished" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">finished</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_docs/TrackerMiner-0.14/../../../GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+  <script>
+      function inIframe() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+      }
+
+    if(!inIframe()) {
+        var icons = document.getElementsByClassName('open-sidebar');
+
+        for (var i = 0; i < icons.length; i ++) {
+            icons[i].style.display = 'table-cell';
+        }
+    }
+  </script>
+
+</html>

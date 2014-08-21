@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    TrackerExtract 0.14
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="TrackerExtract 0.14 0.14 documentation" href="index.html"/>
+        <link rel="next" title="Callbacks" href="callbacks.html"/>
+        <link rel="prev" title="TrackerExtract 0.14" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="./../index.html#TrackerExtract-0.14/functions.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">TrackerExtract 0.14</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="./../index.html#TrackerExtract-0.14/functions.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">TrackerExtract 0.14</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerExtract.client_cancel_for_prefix" title="TrackerExtract.client_cancel_for_prefix"><tt class="xref py py-obj docutils literal"><span class="pre">client_cancel_for_prefix</span></tt></a>(prefix)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerExtract.client_get_metadata" title="TrackerExtract.client_get_metadata"><tt class="xref py py-obj docutils literal"><span class="pre">client_get_metadata</span></tt></a>(file, mime_type, graph, cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerExtract.client_get_metadata_finish" title="TrackerExtract.client_get_metadata_finish"><tt class="xref py py-obj docutils literal"><span class="pre">client_get_metadata_finish</span></tt></a>(file, res)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerExtract.get_metadata" title="TrackerExtract.get_metadata"><tt class="xref py py-obj docutils literal"><span class="pre">get_metadata</span></tt></a>(info)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerExtract.module_manager_init" title="TrackerExtract.module_manager_init"><tt class="xref py py-obj docutils literal"><span class="pre">module_manager_init</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TrackerExtract.module_manager_mimetype_is_handled" title="TrackerExtract.module_manager_mimetype_is_handled"><tt class="xref py py-obj docutils literal"><span class="pre">module_manager_mimetype_is_handled</span></tt></a>(mimetype)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TrackerExtract.module_shutdown" title="TrackerExtract.module_shutdown"><tt class="xref py py-obj docutils literal"><span class="pre">module_shutdown</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="TrackerExtract.client_cancel_for_prefix">
+<tt class="descclassname">TrackerExtract.</tt><tt class="descname">client_cancel_for_prefix</tt><big>(</big><em>prefix</em><big>)</big><a class="headerlink" href="#TrackerExtract.client_cancel_for_prefix" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>prefix</strong> (<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; a <a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.File</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Cancels any ongoing extraction task for (or within) <cite>prefix</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerExtract.client_get_metadata">
+<tt class="descclassname">TrackerExtract.</tt><tt class="descname">client_get_metadata</tt><big>(</big><em>file</em>, <em>mime_type</em>, <em>graph</em>, <em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big><a class="headerlink" href="#TrackerExtract.client_get_metadata" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>file</strong> (<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; a <a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.File</span></tt></a></li>
+<li><strong>mime_type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; mimetype of <cite>file</cite></li>
+<li><strong>graph</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; graph that should be used for the generated insert clauses, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>cancellable</strong> (<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; cancellable for the async operation, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>callback</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; callback to call when the request is satisfied.</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; data for the callback function</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Asynchronously requests metadata for <cite>file</cite>, this request is sent to the
+tracker-extract daemon.</p>
+<p>When the request is finished, <cite>callback</cite> will be executed. You can then
+call <a class="reference internal" href="#TrackerExtract.client_get_metadata_finish" title="TrackerExtract.client_get_metadata_finish"><tt class="xref py py-obj docutils literal"><span class="pre">TrackerExtract.client_get_metadata_finish</span></tt></a> () to get the result of
+the operation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerExtract.client_get_metadata_finish">
+<tt class="descclassname">TrackerExtract.</tt><tt class="descname">client_get_metadata_finish</tt><big>(</big><em>file</em>, <em>res</em><big>)</big><a class="headerlink" href="#TrackerExtract.client_get_metadata_finish" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>file</strong> (<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; a <a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.File</span></tt></a></li>
+<li><strong>res</strong> (<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; a <a class="reference external" href="_docs/TrackerExtract-0.14/../../../Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_docs/TrackerExtract-0.14/../../../GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the <a class="reference internal" href="structs/Info.html#TrackerExtract.Info" title="TrackerExtract.Info"><tt class="xref py py-obj docutils literal"><span class="pre">TrackerExtract.Info</span></tt></a> holding the result.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="structs/Info.html#TrackerExtract.Info" title="TrackerExtract.Info"><tt class="xref py py-class docutils literal"><span class="pre">TrackerExtract.Info</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Finishes an asynchronous metadata request.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerExtract.get_metadata">
+<tt class="descclassname">TrackerExtract.</tt><tt class="descname">get_metadata</tt><big>(</big><em>info</em><big>)</big><a class="headerlink" href="#TrackerExtract.get_metadata" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>info</strong> (<a class="reference internal" href="structs/Info.html#TrackerExtract.Info" title="TrackerExtract.Info"><tt class="xref py py-class docutils literal"><span class="pre">TrackerExtract.Info</span></tt></a>) &#8211; a <a class="reference internal" href="structs/Info.html#TrackerExtract.Info" title="TrackerExtract.Info"><tt class="xref py py-obj docutils literal"><span class="pre">TrackerExtract.Info</span></tt></a> object</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the extraction succeeded, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>This function must be provided by ALL extractors. This is merely
+the declaration of the function which must be written by each
+extractor.</p>
+<p>This is checked by tracker-extract by looking up the symbols for
+each started plugin and making sure this function exists.</p>
+<p>The <cite>info</cite> parameter contains required information for the
+extraction and a location to store the results. The
+<a class="reference internal" href="structs/Info.html#TrackerExtract.Info.get_metadata_builder" title="TrackerExtract.Info.get_metadata_builder"><tt class="xref py py-obj docutils literal"><span class="pre">TrackerExtract.Info.get_metadata_builder</span></tt></a> () function returns a
+<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Tracker-0.14/classes/SparqlBuilder.html#Tracker.SparqlBuilder" title="(in Tracker 0.14 v0.14)"><tt class="xref py py-obj docutils literal"><span class="pre">Tracker.SparqlBuilder</span></tt></a> constructed through
+<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Tracker-0.14/classes/SparqlBuilder.html#Tracker.SparqlBuilder.embedded_insert" title="(in Tracker 0.14 v0.14)"><tt class="xref py py-obj docutils literal"><span class="pre">Tracker.SparqlBuilder.embedded_insert</span></tt></a> (). The subject
+is already set to be the file URN, so implementations of this
+function should just provide predicate/object(s) pairs. The
+triples contained in this object at the end of the function will be
+merged with further file information from miners.</p>
+<p>Whenever any of the inserted triples rely on entities that
+should also be provided by this extractor (for example, album
+or artist information from a song), such insertions should be
+added to the preupdate object returned by
+<a class="reference internal" href="structs/Info.html#TrackerExtract.Info.get_preupdate_builder" title="TrackerExtract.Info.get_preupdate_builder"><tt class="xref py py-obj docutils literal"><span class="pre">TrackerExtract.Info.get_preupdate_builder</span></tt></a> (). This is a
+<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Tracker-0.14/classes/SparqlBuilder.html#Tracker.SparqlBuilder" title="(in Tracker 0.14 v0.14)"><tt class="xref py py-obj docutils literal"><span class="pre">Tracker.SparqlBuilder</span></tt></a> created through
+<a class="reference external" href="_docs/TrackerExtract-0.14/../../../Tracker-0.14/classes/SparqlBuilder.html#Tracker.SparqlBuilder.update" title="(in Tracker 0.14 v0.14)"><tt class="xref py py-obj docutils literal"><span class="pre">Tracker.SparqlBuilder.update</span></tt></a> ().</p>
+<p>NOTE: If upgrading from 0.10, this function replaces the old
+function named tracker_extract_get_data() and has a few subtle
+differences. First, there is a return value for success and the
+parameters are contained in <cite>info</cite> instead of being passed
+individually. Second, the extractor is passed the detected
+MIME type of the file being extracted.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerExtract.module_manager_init">
+<tt class="descclassname">TrackerExtract.</tt><tt class="descname">module_manager_init</tt><big>(</big><big>)</big><a class="headerlink" href="#TrackerExtract.module_manager_init" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerExtract.module_manager_mimetype_is_handled">
+<tt class="descclassname">TrackerExtract.</tt><tt class="descname">module_manager_mimetype_is_handled</tt><big>(</big><em>mimetype</em><big>)</big><a class="headerlink" href="#TrackerExtract.module_manager_mimetype_is_handled" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mimetype</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="TrackerExtract.module_shutdown">
+<tt class="descclassname">TrackerExtract.</tt><tt class="descname">module_shutdown</tt><big>(</big><big>)</big><a class="headerlink" href="#TrackerExtract.module_shutdown" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+  <script>
+      function inIframe() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+      }
+
+    if(!inIframe()) {
+        var icons = document.getElementsByClassName('open-sidebar');
+
+        for (var i = 0; i < icons.length; i ++) {
+            icons[i].style.display = 'table-cell';
+        }
+    }
+  </script>
+
+</html>

@@ -1,0 +1,1345 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Grl.MetadataSource -
+    
+      Classes -
+    
+    Grl 0.1
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Grl 0.1 0.1 documentation" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Grl.PluginRegistry" href="PluginRegistry.html"/>
+        <link rel="prev" title="Grl.MediaVideo" href="MediaVideo.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="../../index.html#Grl-0.1/classes/MetadataSource.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Grl 0.1</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Grl.MetadataSource</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="MediaVideo.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="PluginRegistry.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Grl.MetadataSource</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="open-sidebar" style="display:none"><a href="../../index.html#Grl-0.1/classes/MetadataSource.html"><i class="fa fa-search"></i></a></td>
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Grl 0.1</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Grl.MetadataSource</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="MediaVideo.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="PluginRegistry.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Grl.MetadataSource</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="grl-metadatasource">
+<h1>Grl.MetadataSource<a class="headerlink" href="#grl-metadatasource" title="Permalink to this headline">¶</a></h1>
+<p class="graphviz">
+<svg width="109pt" height="134pt"
+ viewBox="0.00 0.00 109.00 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>inheritance644f4d4785</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_docs/Grl-0.1/../../../GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M84.5,-126C84.5,-126 16.5,-126 16.5,-126 13.5,-126 10.5,-123 10.5,-120 10.5,-120 10.5,-114 10.5,-114 10.5,-111 13.5,-108 16.5,-108 16.5,-108 84.5,-108 84.5,-108 87.5,-108 90.5,-111 90.5,-114 90.5,-114 90.5,-120 90.5,-120 90.5,-123 87.5,-126 84.5,-126"/>
+<text text-anchor="middle" x="50.5" y="-114.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- Grl.MediaPlugin -->
+<g id="node2" class="node"><title>Grl.MediaPlugin</title>
+<g id="a_node2"><a xlink:href="MediaPlugin.html#Grl.MediaPlugin" xlink:title="Grl.MediaPlugin">
+<path fill="none" stroke="#75507b" d="M86,-72C86,-72 15,-72 15,-72 12,-72 9,-69 9,-66 9,-66 9,-60 9,-60 9,-57 12,-54 15,-54 15,-54 86,-54 86,-54 89,-54 92,-57 92,-60 92,-60 92,-66 92,-66 92,-69 89,-72 86,-72"/>
+<text text-anchor="middle" x="50.5" y="-60.7" font-family="inherit" font-size="8.50">Grl.MediaPlugin</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Grl.MediaPlugin -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;Grl.MediaPlugin</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M50.5,-107.875C50.5,-99.7564 50.5,-87.1312 50.5,-77.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="52.2501,-77.2395 50.5,-72.2396 48.7501,-77.2396 52.2501,-77.2395"/>
+</g>
+<!-- Grl.MetadataSource -->
+<g id="node3" class="node"><title>Grl.MetadataSource</title>
+<g id="a_node3"><a xlink:href="#Grl.MetadataSource" xlink:title="Grl.MetadataSource">
+<path fill="none" stroke="#75507b" d="M95,-18C95,-18 6,-18 6,-18 3,-18 0,-15 0,-12 0,-12 0,-6 0,-6 0,-3 3,-0 6,-0 6,-0 95,-0 95,-0 98,-0 101,-3 101,-6 101,-6 101,-12 101,-12 101,-15 98,-18 95,-18"/>
+<text text-anchor="middle" x="50.5" y="-6.7" font-family="inherit" font-size="8.50">Grl.MetadataSource</text>
+</a>
+</g>
+</g>
+<!-- Grl.MediaPlugin&#45;&gt;Grl.MetadataSource -->
+<g id="edge2" class="edge"><title>Grl.MediaPlugin&#45;&gt;Grl.MetadataSource</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M50.5,-53.875C50.5,-45.7564 50.5,-33.1312 50.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="52.2501,-23.2395 50.5,-18.2396 48.7501,-23.2396 52.2501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Subclasses:</th><td class="field-body"><a class="reference internal" href="MediaSource.html#Grl.MediaSource" title="Grl.MediaSource"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MediaSource</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="methods">
+<span id="grl-metadatasource-methods"></span><h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="MediaPlugin.html#grl-mediaplugin-methods"><em>Grl.MediaPlugin (12)</em></a>, <a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.cancel" title="Grl.MetadataSource.cancel"><tt class="xref py py-obj docutils literal"><span class="pre">cancel</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.filter_slow" title="Grl.MetadataSource.filter_slow"><tt class="xref py py-obj docutils literal"><span class="pre">filter_slow</span></tt></a>(keys, return_filtered)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.filter_supported" title="Grl.MetadataSource.filter_supported"><tt class="xref py py-obj docutils literal"><span class="pre">filter_supported</span></tt></a>(keys, return_filtered)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.filter_writable" title="Grl.MetadataSource.filter_writable"><tt class="xref py py-obj docutils literal"><span class="pre">filter_writable</span></tt></a>(keys, return_filtered)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.gen_operation_id" title="Grl.MetadataSource.gen_operation_id"><tt class="xref py py-obj docutils literal"><span class="pre">gen_operation_id</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.get_description" title="Grl.MetadataSource.get_description"><tt class="xref py py-obj docutils literal"><span class="pre">get_description</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.get_id" title="Grl.MetadataSource.get_id"><tt class="xref py py-obj docutils literal"><span class="pre">get_id</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.get_name" title="Grl.MetadataSource.get_name"><tt class="xref py py-obj docutils literal"><span class="pre">get_name</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.get_operation_data" title="Grl.MetadataSource.get_operation_data"><tt class="xref py py-obj docutils literal"><span class="pre">get_operation_data</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.key_depends" title="Grl.MetadataSource.key_depends"><tt class="xref py py-obj docutils literal"><span class="pre">key_depends</span></tt></a>(key_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.operation_is_cancelled" title="Grl.MetadataSource.operation_is_cancelled"><tt class="xref py py-obj docutils literal"><span class="pre">operation_is_cancelled</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.operation_is_completed" title="Grl.MetadataSource.operation_is_completed"><tt class="xref py py-obj docutils literal"><span class="pre">operation_is_completed</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.operation_is_finished" title="Grl.MetadataSource.operation_is_finished"><tt class="xref py py-obj docutils literal"><span class="pre">operation_is_finished</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.operation_is_ongoing" title="Grl.MetadataSource.operation_is_ongoing"><tt class="xref py py-obj docutils literal"><span class="pre">operation_is_ongoing</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.resolve" title="Grl.MetadataSource.resolve"><tt class="xref py py-obj docutils literal"><span class="pre">resolve</span></tt></a>(keys, media, flags, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.resolve_sync" title="Grl.MetadataSource.resolve_sync"><tt class="xref py py-obj docutils literal"><span class="pre">resolve_sync</span></tt></a>(keys, media, flags)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.set_metadata" title="Grl.MetadataSource.set_metadata"><tt class="xref py py-obj docutils literal"><span class="pre">set_metadata</span></tt></a>(media, keys, flags, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.set_metadata_sync" title="Grl.MetadataSource.set_metadata_sync"><tt class="xref py py-obj docutils literal"><span class="pre">set_metadata_sync</span></tt></a>(media, keys, flags)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.set_operation_cancelled" title="Grl.MetadataSource.set_operation_cancelled"><tt class="xref py py-obj docutils literal"><span class="pre">set_operation_cancelled</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.set_operation_completed" title="Grl.MetadataSource.set_operation_completed"><tt class="xref py py-obj docutils literal"><span class="pre">set_operation_completed</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.set_operation_data" title="Grl.MetadataSource.set_operation_data"><tt class="xref py py-obj docutils literal"><span class="pre">set_operation_data</span></tt></a>(operation_id, data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.set_operation_finished" title="Grl.MetadataSource.set_operation_finished"><tt class="xref py py-obj docutils literal"><span class="pre">set_operation_finished</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.set_operation_ongoing" title="Grl.MetadataSource.set_operation_ongoing"><tt class="xref py py-obj docutils literal"><span class="pre">set_operation_ongoing</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.slow_keys" title="Grl.MetadataSource.slow_keys"><tt class="xref py py-obj docutils literal"><span class="pre">slow_keys</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.supported_keys" title="Grl.MetadataSource.supported_keys"><tt class="xref py py-obj docutils literal"><span class="pre">supported_keys</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.supported_operations" title="Grl.MetadataSource.supported_operations"><tt class="xref py py-obj docutils literal"><span class="pre">supported_operations</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.writable_keys" title="Grl.MetadataSource.writable_keys"><tt class="xref py py-obj docutils literal"><span class="pre">writable_keys</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="grl-metadatasource-vfuncs"></span><h2>Virtual Methods<a class="headerlink" href="#virtual-methods" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_cancel" title="Grl.MetadataSource.do_cancel"><tt class="xref py py-obj docutils literal"><span class="pre">do_cancel</span></tt></a>(operation_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_key_depends" title="Grl.MetadataSource.do_key_depends"><tt class="xref py py-obj docutils literal"><span class="pre">do_key_depends</span></tt></a>(key_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_may_resolve" title="Grl.MetadataSource.do_may_resolve"><tt class="xref py py-obj docutils literal"><span class="pre">do_may_resolve</span></tt></a>(media, key_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_resolve" title="Grl.MetadataSource.do_resolve"><tt class="xref py py-obj docutils literal"><span class="pre">do_resolve</span></tt></a>(rs)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_set_metadata" title="Grl.MetadataSource.do_set_metadata"><tt class="xref py py-obj docutils literal"><span class="pre">do_set_metadata</span></tt></a>(sms)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_slow_keys" title="Grl.MetadataSource.do_slow_keys"><tt class="xref py py-obj docutils literal"><span class="pre">do_slow_keys</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_supported_keys" title="Grl.MetadataSource.do_supported_keys"><tt class="xref py py-obj docutils literal"><span class="pre">do_supported_keys</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_supported_operations" title="Grl.MetadataSource.do_supported_operations"><tt class="xref py py-obj docutils literal"><span class="pre">do_supported_operations</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Grl.MetadataSource.do_writable_keys" title="Grl.MetadataSource.do_writable_keys"><tt class="xref py py-obj docutils literal"><span class="pre">do_writable_keys</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="grl-metadatasource-props"></span><h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Grl.MetadataSource.props.source_desc" title="Grl.MetadataSource.props.source_desc"><tt class="xref py py-data docutils literal"><span class="pre">source-desc</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w/c</td>
+<td>A description of the source</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Grl.MetadataSource.props.source_id" title="Grl.MetadataSource.props.source_id"><tt class="xref py py-data docutils literal"><span class="pre">source-id</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w/c</td>
+<td>The identifier of the source</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Grl.MetadataSource.props.source_name" title="Grl.MetadataSource.props.source_name"><tt class="xref py py-data docutils literal"><span class="pre">source-name</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w/c</td>
+<td>The name of the source</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="grl-metadatasource-signals"></span><h2>Signals<a class="headerlink" href="#signals" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="grl-metadatasource-fields"></span><h2>Fields<a class="headerlink" href="#fields" title="Permalink to this headline">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="MediaPlugin.html#grl-mediaplugin-fields"><em>Grl.MediaPlugin (1)</em></a>, <a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent</td>
+<td><a class="reference internal" href="MediaPlugin.html#Grl.MediaPlugin" title="Grl.MediaPlugin"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MediaPlugin</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details<a class="headerlink" href="#class-details" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="Grl.MetadataSource">
+<em class="property">class </em><tt class="descclassname">Grl.</tt><tt class="descname">MetadataSource</tt><big>(</big><em>**kwargs</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="MediaPlugin.html#Grl.MediaPlugin" title="Grl.MediaPlugin"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MediaPlugin</span></tt></a></p>
+<dl class="method">
+<dt id="Grl.MetadataSource.do_cancel">
+<tt class="descname">do_cancel</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_cancel" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the identifier of the running operation, as returned by the function that started it</td>
+</tr>
+</tbody>
+</table>
+<p>Cancel a running method.</p>
+<p>The derived class must implement the cancel vmethod in order to honour the
+request correctly. Otherwise, the operation will not be interrupted.</p>
+<p>In all cases, if this function is called on an ongoing operation, the
+corresponding callback will be called with the
+<a class="reference internal" href="../enums.html#Grl.CoreError.OPERATION_CANCELLED" title="Grl.CoreError.OPERATION_CANCELLED"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.CoreError.OPERATION_CANCELLED</span></tt></a> error set, and no more action will be
+taken for that operation after the said callback with error has been called.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.14.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.1.16: </span>use <a class="reference internal" href="../functions.html#Grl.operation_cancel" title="Grl.operation_cancel"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.operation_cancel</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.do_key_depends">
+<tt class="descname">do_key_depends</tt><big>(</big><em>key_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_key_depends" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key_id</strong> (<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>) &#8211; the requested metadata key</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Get the list of <tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt> which are needed a priori, in order to fetch
+and store the requested <cite>key_id</cite></p>
+<p>a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> with the keys, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if it can not resolve <cite>key_id</cite></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.1.10: </span>use <tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.may_resolve</span></tt> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.do_may_resolve">
+<tt class="descname">do_may_resolve</tt><big>(</big><em>media</em>, <em>key_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_may_resolve" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>media</strong> (<a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; a media on which we want more metadata</li>
+<li><strong>key_id</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; the key corresponding to a metadata we might want</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if there&#8217;s a possibility that <cite>source</cite> resolves <cite>key_id</cite> for</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">missing_keys:</th><td class="field-body">an optional originally empty list</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>missing_keys</strong>: [<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>])</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Checks whether <cite>key_id</cite> may be resolved with <cite>source</cite> for <cite>media</cite>, so that the
+caller can avoid calling <a class="reference internal" href="#Grl.MetadataSource.resolve" title="Grl.MetadataSource.resolve"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.resolve</span></tt></a> () if it can be known in
+advance it will fail.</p>
+<p>If the resolution is known to be impossible because more keys are needed in
+<cite>media</cite>, and <cite>missing_keys</cite> is not <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, it is populated with the list of
+<tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt> that would be needed.</p>
+<p>This function is synchronous and should not block.</p>
+<p><cite>media</cite>, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.do_resolve">
+<tt class="descname">do_resolve</tt><big>(</big><em>rs</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_resolve" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>rs</strong> (<a class="reference internal" href="../structs/MetadataSourceResolveSpec.html#Grl.MetadataSourceResolveSpec" title="Grl.MetadataSourceResolveSpec"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataSourceResolveSpec</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.do_set_metadata">
+<tt class="descname">do_set_metadata</tt><big>(</big><em>sms</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_set_metadata" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>sms</strong> (<a class="reference internal" href="../structs/MetadataSourceSetMetadataSpec.html#Grl.MetadataSourceSetMetadataSpec" title="Grl.MetadataSourceSetMetadataSpec"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataSourceSetMetadataSpec</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.do_slow_keys">
+<tt class="descname">do_slow_keys</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_slow_keys" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> with the keys</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Similar to <a class="reference internal" href="#Grl.MetadataSource.supported_keys" title="Grl.MetadataSource.supported_keys"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.supported_keys</span></tt></a> (), but this keys
+are marked as slow because of the amount of traffic/processing needed
+to fetch them.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.do_supported_keys">
+<tt class="descname">do_supported_keys</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_supported_keys" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> with the keys</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Get a list of <tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt>, which describe a metadata types that this
+source can fetch and store.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.do_supported_operations">
+<tt class="descname">do_supported_operations</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_supported_operations" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../flags.html#Grl.SupportedOps" title="Grl.SupportedOps"><tt class="xref py py-class docutils literal"><span class="pre">Grl.SupportedOps</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.do_writable_keys">
+<tt class="descname">do_writable_keys</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.do_writable_keys" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Similar to <a class="reference internal" href="#Grl.MetadataSource.supported_keys" title="Grl.MetadataSource.supported_keys"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.supported_keys</span></tt></a> (), but these keys
+are marked as writable, meaning the source allows the client
+to provide new values for these keys that will be stored permanently.</p>
+<p>a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> with the keys</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.cancel">
+<tt class="descname">cancel</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.cancel" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the identifier of the running operation, as returned by the function that started it</td>
+</tr>
+</tbody>
+</table>
+<p>Cancel a running method.</p>
+<p>The derived class must implement the cancel vmethod in order to honour the
+request correctly. Otherwise, the operation will not be interrupted.</p>
+<p>In all cases, if this function is called on an ongoing operation, the
+corresponding callback will be called with the
+<a class="reference internal" href="../enums.html#Grl.CoreError.OPERATION_CANCELLED" title="Grl.CoreError.OPERATION_CANCELLED"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.CoreError.OPERATION_CANCELLED</span></tt></a> error set, and no more action will be
+taken for that operation after the said callback with error has been called.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.14.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.1.16: </span>use <a class="reference internal" href="../functions.html#Grl.operation_cancel" title="Grl.operation_cancel"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.operation_cancel</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.filter_slow">
+<tt class="descname">filter_slow</tt><big>(</big><em>keys</em>, <em>return_filtered</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.filter_slow" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>keys</strong> ([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the list of keys to filter out</li>
+<li><strong>return_filtered</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; if <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> the return value shall be a new list with the slow keys</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p>if</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">keys:</th><td class="field-body">the list of keys to filter out</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>], <strong>keys</strong>: [<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>])</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This function does the opposite of other filter functions: removes the slow
+keys from <cite>keys</cite>. If <cite>return_filtered</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> the removed slow keys are
+returned in a new list.</p>
+<p><cite>return_filtered</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> will return the list of slow keys; otherwise
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.filter_supported">
+<tt class="descname">filter_supported</tt><big>(</big><em>keys</em>, <em>return_filtered</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.filter_supported" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>keys</strong> ([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the list of keys to filter out</li>
+<li><strong>return_filtered</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; if <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> the return value shall be a new list with the unsupported keys</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">keys:</th><td class="field-body">the list of keys to filter out</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>], <strong>keys</strong>: [<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>])</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Compares the received <cite>keys</cite> list with the supported key list by the
+metadata <cite>source</cite>, and deletes those keys which are not supported.</p>
+<p>if <cite>return_filtered</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> will return the list of removed keys;
+otherwise <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.filter_writable">
+<tt class="descname">filter_writable</tt><big>(</big><em>keys</em>, <em>return_filtered</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.filter_writable" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>keys</strong> ([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the list of keys to filter out</li>
+<li><strong>return_filtered</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; if <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> the return value shall be a new list with the non-writable keys</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">keys:</th><td class="field-body">the list of keys to filter out</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>], <strong>keys</strong>: [<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>])</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Similar to <a class="reference internal" href="#Grl.MetadataSource.filter_supported" title="Grl.MetadataSource.filter_supported"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.filter_supported</span></tt></a> () but applied to
+the writable keys in <a class="reference internal" href="#Grl.MetadataSource.writable_keys" title="Grl.MetadataSource.writable_keys"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.writable_keys</span></tt></a> ().</p>
+<p>Filter the <cite>keys</cite> list keeping only those keys that are writtable in
+<cite>source</cite>. If <cite>return_filtered</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> then the removed keys are returned in a
+new list.</p>
+<p>if <cite>return_filtered</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> will return the list of non-writtable keys;
+otherwise <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.gen_operation_id">
+<tt class="descname">gen_operation_id</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.gen_operation_id" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.get_description">
+<tt class="descname">get_description</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.get_description" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the description of the <cite>source</cite></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.get_id">
+<tt class="descname">get_id</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.get_id" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the ID of the <cite>source</cite></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.get_name">
+<tt class="descname">get_name</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.get_name" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the name of the <cite>source</cite></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.get_operation_data">
+<tt class="descname">get_operation_data</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.get_operation_data" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the identifier of a running operation</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The previously attached data.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></td>
+</tr>
+</tbody>
+</table>
+<p>Obtains the previously attached data</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.14.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.1.16: </span>use <a class="reference internal" href="../functions.html#Grl.operation_get_data" title="Grl.operation_get_data"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.operation_get_data</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.key_depends">
+<tt class="descname">key_depends</tt><big>(</big><em>key_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.key_depends" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key_id</strong> (<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>) &#8211; the requested metadata key</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Get the list of <tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt> which are needed a priori, in order to fetch
+and store the requested <cite>key_id</cite></p>
+<p>a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> with the keys, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if it can not resolve <cite>key_id</cite></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.1.10: </span>use <tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.may_resolve</span></tt> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.operation_is_cancelled">
+<tt class="descname">operation_is_cancelled</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.operation_is_cancelled" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.operation_is_completed">
+<tt class="descname">operation_is_completed</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.operation_is_completed" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.operation_is_finished">
+<tt class="descname">operation_is_finished</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.operation_is_finished" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.operation_is_ongoing">
+<tt class="descname">operation_is_ongoing</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.operation_is_ongoing" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.resolve">
+<tt class="descname">resolve</tt><big>(</big><em>keys</em>, <em>media</em>, <em>flags</em>, <em>callback</em>, <em>*user_data</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.resolve" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>keys</strong> ([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> of <tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt> to retrieve</li>
+<li><strong>media</strong> (<a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; Transfer object where all the metadata is stored.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Grl.MetadataResolutionFlags" title="Grl.MetadataResolutionFlags"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataResolutionFlags</span></tt></a>) &#8211; bitwise mask of <a class="reference internal" href="../flags.html#Grl.MetadataResolutionFlags" title="Grl.MetadataResolutionFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataResolutionFlags</span></tt></a> with the resolution strategy</li>
+<li><strong>callback</strong> (<a class="reference internal" href="../callbacks.html#Grl.MetadataSourceResolveCb" title="Grl.MetadataSourceResolveCb"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataSourceResolveCb</span></tt></a>) &#8211; the callback to execute when the <cite>media</cite> metadata is filled up</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; user data set for the <cite>callback</cite></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the operation identifier</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This is the main method of the <a class="reference internal" href="#Grl.MetadataSource" title="Grl.MetadataSource"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource</span></tt></a> class. It will fetch the
+metadata of the requested keys.</p>
+<p>This function is asynchronous.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.14.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.resolve_sync">
+<tt class="descname">resolve_sync</tt><big>(</big><em>keys</em>, <em>media</em>, <em>flags</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.resolve_sync" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>keys</strong> ([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> of <tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt> to retrieve</li>
+<li><strong>media</strong> (<a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; Transfer object where all the metadata is stored</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Grl.MetadataResolutionFlags" title="Grl.MetadataResolutionFlags"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataResolutionFlags</span></tt></a>) &#8211; bitwise mask of <a class="reference internal" href="../flags.html#Grl.MetadataResolutionFlags" title="Grl.MetadataResolutionFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataResolutionFlags</span></tt></a> with the resolution strategy</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the updated <a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.Media</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This is the main method of the <a class="reference internal" href="#Grl.MetadataSource" title="Grl.MetadataSource"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource</span></tt></a> class. It will fetch the
+metadata of the requested keys.</p>
+<p>This function is synchronous.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.set_metadata">
+<tt class="descname">set_metadata</tt><big>(</big><em>media</em>, <em>keys</em>, <em>flags</em>, <em>callback</em>, <em>*user_data</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.set_metadata" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>media</strong> (<a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; the <a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.Media</span></tt></a> object that we want to operate on.</li>
+<li><strong>keys</strong> ([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a list of <tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt> whose values we want to change.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Grl.MetadataWritingFlags" title="Grl.MetadataWritingFlags"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataWritingFlags</span></tt></a>) &#8211; Flags to configure specific behaviors of the operation.</li>
+<li><strong>callback</strong> (<a class="reference internal" href="../callbacks.html#Grl.MetadataSourceSetMetadataCb" title="Grl.MetadataSourceSetMetadataCb"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataSourceSetMetadataCb</span></tt></a>) &#8211; the callback to execute when the operation is finished.</li>
+<li><strong>user_data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; user data set for the <cite>callback</cite></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This is the main method of the <a class="reference internal" href="#Grl.MetadataSource" title="Grl.MetadataSource"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource</span></tt></a> class. It will
+get the values for <cite>keys</cite> from <cite>media</cite> and store it permanently. After
+calling this method, future queries that return this media object
+shall return this new values for the selected keys.</p>
+<p>This function is asynchronous and uses the Glib&#8217;s main loop.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.set_metadata_sync">
+<tt class="descname">set_metadata_sync</tt><big>(</big><em>media</em>, <em>keys</em>, <em>flags</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.set_metadata_sync" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>media</strong> (<a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-class docutils literal"><span class="pre">Grl.Media</span></tt></a>) &#8211; the <a class="reference internal" href="Media.html#Grl.Media" title="Grl.Media"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.Media</span></tt></a> object that we want to operate on</li>
+<li><strong>keys</strong> ([<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a list of <tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt> whose values we want to change</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Grl.MetadataWritingFlags" title="Grl.MetadataWritingFlags"><tt class="xref py py-class docutils literal"><span class="pre">Grl.MetadataWritingFlags</span></tt></a>) &#8211; Flags to configure specific behaviors of the operation.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This is the main method of the <a class="reference internal" href="#Grl.MetadataSource" title="Grl.MetadataSource"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource</span></tt></a> class. It will
+get the value for <cite>key</cite> from <cite>media</cite> and store it permanently. After
+calling this method, future queries that return this media object
+shall return this new value for the selected key.</p>
+<p>This function is synchronous.</p>
+<p>a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> of keys that could not be updated, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.set_operation_cancelled">
+<tt class="descname">set_operation_cancelled</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.set_operation_cancelled" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.set_operation_completed">
+<tt class="descname">set_operation_completed</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.set_operation_completed" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.set_operation_data">
+<tt class="descname">set_operation_data</tt><big>(</big><em>operation_id</em>, <em>data</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.set_operation_data" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the identifier of a running operation</li>
+<li><strong>data</strong> (<tt class="xref py py-class docutils literal"><span class="pre">object</span></tt>) &#8211; the data to attach</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Attach a pointer to the specific operation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.14.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.1.16: </span>use <a class="reference internal" href="../functions.html#Grl.operation_set_data" title="Grl.operation_set_data"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.operation_set_data</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.set_operation_finished">
+<tt class="descname">set_operation_finished</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.set_operation_finished" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.set_operation_ongoing">
+<tt class="descname">set_operation_ongoing</tt><big>(</big><em>operation_id</em><big>)</big><a class="headerlink" href="#Grl.MetadataSource.set_operation_ongoing" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>operation_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.slow_keys">
+<tt class="descname">slow_keys</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.slow_keys" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> with the keys</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Similar to <a class="reference internal" href="#Grl.MetadataSource.supported_keys" title="Grl.MetadataSource.supported_keys"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.supported_keys</span></tt></a> (), but this keys
+are marked as slow because of the amount of traffic/processing needed
+to fetch them.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.supported_keys">
+<tt class="descname">supported_keys</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.supported_keys" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> with the keys</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Get a list of <tt class="xref py py-obj docutils literal"><span class="pre">Grl.KeyID</span></tt>, which describe a metadata types that this
+source can fetch and store.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.supported_operations">
+<tt class="descname">supported_operations</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.supported_operations" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a bitwise mangle with the supported operations by</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>By default the derived objects of <a class="reference internal" href="#Grl.MetadataSource" title="Grl.MetadataSource"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource</span></tt></a> can only resolve.</p>
+<p>the source</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Grl.MetadataSource.writable_keys">
+<tt class="descname">writable_keys</tt><big>(</big><big>)</big><a class="headerlink" href="#Grl.MetadataSource.writable_keys" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="../_docs/Grl-0.1/../../../GObject-2.0/classes/ParamSpec.html#GObject.ParamSpec" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ParamSpec</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Similar to <a class="reference internal" href="#Grl.MetadataSource.supported_keys" title="Grl.MetadataSource.supported_keys"><tt class="xref py py-obj docutils literal"><span class="pre">Grl.MetadataSource.supported_keys</span></tt></a> (), but these keys
+are marked as writable, meaning the source allows the client
+to provide new values for these keys that will be stored permanently.</p>
+<p>a <a class="reference external" href="../_docs/Grl-0.1/../../../GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> with the keys</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.4.</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details<a class="headerlink" href="#property-details" title="Permalink to this headline">¶</a></h2>
+<dl class="data">
+<dt id="Grl.MetadataSource.props.source_desc">
+<tt class="descclassname">Grl.MetadataSource.props.</tt><tt class="descname">source_desc</tt><a class="headerlink" href="#Grl.MetadataSource.props.source_desc" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">source-desc</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">''</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w/c</td>
+</tr>
+</tbody>
+</table>
+<p>A description of the source</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Grl.MetadataSource.props.source_id">
+<tt class="descclassname">Grl.MetadataSource.props.</tt><tt class="descname">source_id</tt><a class="headerlink" href="#Grl.MetadataSource.props.source_id" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">source-id</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">''</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w/c</td>
+</tr>
+</tbody>
+</table>
+<p>The identifier of the source.</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Grl.MetadataSource.props.source_name">
+<tt class="descclassname">Grl.MetadataSource.props.</tt><tt class="descname">source_name</tt><a class="headerlink" href="#Grl.MetadataSource.props.source_name" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">source-name</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">''</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w/c</td>
+</tr>
+</tbody>
+</table>
+<p>The name of the source.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+  <script>
+      function inIframe() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+      }
+
+    if(!inIframe()) {
+        var icons = document.getElementsByClassName('open-sidebar');
+
+        for (var i = 0; i < icons.length; i ++) {
+            icons[i].style.display = 'table-cell';
+        }
+    }
+  </script>
+
+</html>
